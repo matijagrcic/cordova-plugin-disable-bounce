@@ -1,0 +1,23 @@
+{
+  "name": "cordova-plugin-disable-bounce",
+  "version": "1.0.0",
+  "description": "Disables bounce on iOS",
+  "cordova": {
+    "id": "cordova-plugin-disable-bounce",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "camera",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Matija Grcic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matijagrcic/cordova-plugin-disable-bounce"
+  }
+}

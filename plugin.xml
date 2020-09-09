@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-disable-bounce" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>disableiOSBounce</name>
+    <js-module name="Plugin" src="www/cordova-plugin-disable-bounce.js">
+        <clobbers target="cordova.plugins.disableiOSBounce" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="disableiOSBouncePlugin">
+                <param name="ios-package" value="disableiOSBouncePlugin" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/disableiOSBouncePlugin.m" />
+    </platform>
+</plugin>
