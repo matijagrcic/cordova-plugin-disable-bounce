@@ -1,0 +1,1 @@
+# cordova-plugin-disable-bounce
